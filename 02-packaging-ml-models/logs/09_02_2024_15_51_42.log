@@ -1,0 +1,20 @@
+[2024-09-02 15:51:42,682] 28 root - INFO - data ingestion started
+[2024-09-02 15:51:42,686] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:51:42,687] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:51:42,687] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:51:42,689] 39 root - INFO - train test split completed
+[2024-09-02 15:51:42,694] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:51:42,696] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:51:42,697] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:51:42,702] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:51:42,704] 84 root - INFO -  Scaling initiated
+[2024-09-02 15:51:42,718] 101 root - INFO - Data Transformation completed
+[2024-09-02 15:51:42,718] 69 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-02 15:51:42,956] 89 root - INFO - Model Report :                         accuracy  precision    recall        f1   roc_auc
+RandomForestClassifier  0.779412   0.782609  0.947368  0.857143  0.668806
+DecisionTreeClassifier  0.735294   0.792079  0.842105  0.816327  0.664955
+XGBClassifier           0.786765   0.794643  0.936842  0.859903  0.687933
+SVM                     0.779412   0.773109  0.968421  0.859813  0.654942
+[2024-09-02 15:51:42,956] 98 root - INFO - Best Model Found 
+Model Name : XGBClassifier , F1 Score : 0.8599033816425121
+[2024-09-02 15:51:42,958] 104 root - INFO - Model Training Completed

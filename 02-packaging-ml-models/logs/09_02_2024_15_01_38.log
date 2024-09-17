@@ -1,0 +1,10 @@
+[2024-09-02 15:01:38,924] 28 root - INFO - data ingestion started
+[2024-09-02 15:01:38,928] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:01:38,929] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:01:38,929] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:01:38,931] 39 root - INFO - train test split completed
+[2024-09-02 15:01:38,937] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:01:38,939] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:01:38,940] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:01:38,946] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:01:38,947] 104 root - INFO - Exception occured in the initiate_datatransformation

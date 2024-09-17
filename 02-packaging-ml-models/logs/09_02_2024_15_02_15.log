@@ -1,0 +1,11 @@
+[2024-09-02 15:02:15,762] 28 root - INFO - data ingestion started
+[2024-09-02 15:02:15,764] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:02:15,765] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:02:15,765] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:02:15,766] 39 root - INFO - train test split completed
+[2024-09-02 15:02:15,770] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:02:15,772] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:02:15,773] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:02:15,777] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:02:15,780] 84 root - INFO -  Scaling initiated
+[2024-09-02 15:02:15,794] 101 root - INFO - Data Transformation completed

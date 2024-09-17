@@ -1,0 +1,14 @@
+include *.txt
+include *.md 
+include *.py
+
+recursive-include ./src/*
+
+include data/*/*.csv
+include artifacts/*.pkl
+incude src/VERSION
+include ./tests/*
+
+recursive-exclude * __pycache__
+recursive-exclude .pytest_cache/*
+recursive-exclude * *.py[co]

@@ -1,0 +1,13 @@
+[2024-09-02 15:16:38,132] 28 root - INFO - data ingestion started
+[2024-09-02 15:16:38,136] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:16:38,137] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:16:38,137] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:16:38,139] 39 root - INFO - train test split completed
+[2024-09-02 15:16:38,144] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:16:38,146] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:16:38,147] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:16:38,152] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:16:38,155] 84 root - INFO -  Scaling initiated
+[2024-09-02 15:16:38,170] 101 root - INFO - Data Transformation completed
+[2024-09-02 15:16:38,170] 55 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-02 15:16:38,171] 97 root - INFO - Exception occured at Model Training

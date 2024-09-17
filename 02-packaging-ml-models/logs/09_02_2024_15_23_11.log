@@ -1,0 +1,20 @@
+[2024-09-02 15:23:12,093] 28 root - INFO - data ingestion started
+[2024-09-02 15:23:12,095] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:23:12,096] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:23:12,096] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:23:12,096] 39 root - INFO - train test split completed
+[2024-09-02 15:23:12,100] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:23:12,102] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:23:12,102] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:23:12,107] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:23:12,109] 84 root - INFO -  Scaling initiated
+[2024-09-02 15:23:12,120] 101 root - INFO - Data Transformation completed
+[2024-09-02 15:23:12,120] 69 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-02 15:23:12,307] 89 root - INFO - Model Report :                         accuracy  precision    recall        f1   roc_auc
+RandomForestClassifier  0.757353   0.798165  0.887755  0.840580  0.654404
+DecisionTreeClassifier  0.764706   0.823529  0.857143  0.840000  0.691729
+XGBClassifier           0.772059   0.819048  0.877551  0.847291  0.688776
+SVM                     0.816176   0.806723  0.979592  0.884793  0.687164
+[2024-09-02 15:23:12,307] 98 root - INFO - Best Model Found 
+Model Name : SVM , F1 Score : 0.8847926267281107
+[2024-09-02 15:23:12,308] 104 root - INFO - Model Training Completed

@@ -1,0 +1,6 @@
+[2024-09-02 14:08:10,094] 28 root - INFO - data ingestion started
+[2024-09-02 14:08:10,098] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 14:08:12,437] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 14:08:12,437] 36 root - INFO - here i have performed train test split
+[2024-09-02 14:08:12,445] 39 root - INFO - train test split completed
+[2024-09-02 14:08:12,453] 45 root - INFO - data ingestion part completed

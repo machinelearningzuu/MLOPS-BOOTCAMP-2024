@@ -1,0 +1,17 @@
+[2024-09-02 15:20:27,170] 28 root - INFO - data ingestion started
+[2024-09-02 15:20:27,174] 31 root - INFO -   reading the train file from data lake
+[2024-09-02 15:20:27,174] 34 root - INFO -   reading the test file from data lake
+[2024-09-02 15:20:27,174] 36 root - INFO - here i have performed train test split
+[2024-09-02 15:20:27,176] 39 root - INFO - train test split completed
+[2024-09-02 15:20:27,183] 45 root - INFO - data ingestion part completed
+[2024-09-02 15:20:27,184] 44 root - INFO -  Data Transformation initiated
+[2024-09-02 15:20:27,185] 53 root - INFO -  Imputer initiated
+[2024-09-02 15:20:27,190] 66 root - INFO -  Encoding initiated
+[2024-09-02 15:20:27,193] 84 root - INFO -  Scaling initiated
+[2024-09-02 15:20:27,205] 101 root - INFO - Data Transformation completed
+[2024-09-02 15:20:27,205] 69 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-02 15:20:27,393] 89 root - INFO - Model Report :                         accuracy  precision    recall        f1   roc_auc
+RandomForestClassifier  0.801471   0.809524  0.923913  0.862944  0.734684
+DecisionTreeClassifier  0.757353   0.797980  0.858696  0.827225  0.702075
+XGBClassifier           0.794118   0.820000  0.891304  0.854167  0.741107
+SVC                     0.830882   0.805310  0.989130  0.887805  0.744565
